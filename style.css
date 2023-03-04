@@ -11,8 +11,10 @@ html {
   font-size: 10px;
   margin-bottom: 0rem;
 }
+html,
 body {
   overflow-x: hidden;
+  max-width: 100%;
 }
 .hamburger {
   display: none;
