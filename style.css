@@ -11,7 +11,9 @@ html {
   font-size: 10px;
   margin-bottom: 0rem;
 }
-
+body {
+  overflow-x: hidden;
+}
 .hamburger {
   display: none;
   cursor: pointer;

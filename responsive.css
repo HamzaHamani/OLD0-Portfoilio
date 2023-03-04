@@ -1,4 +1,7 @@
 @media (max-width: 1440px) {
+  .preloader {
+    height: 130vh;
+  }
   .top {
     width: 125%;
   }
@@ -37,6 +40,9 @@
   }
 }
 @media (max-width: 1024px) {
+  .preloader {
+    height: 180vh;
+  }
   html {
     /* font-size: 11rem; */
   }
@@ -191,6 +197,12 @@
   }
 }
 @media (max-width: 768px) {
+  .preloader {
+    width: 100%;
+    height: 250vh;
+    position: fixed;
+    z-index: 10000;
+  }
   #about_section {
     scroll-margin-top: 19rem;
   }
@@ -358,6 +370,9 @@
 }
 
 @media (max-width: 425px) {
+  .preloader {
+    height: 400vh;
+  }
   #small {
     scroll-margin-top: 100rem;
   }
